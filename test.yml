@@ -1,0 +1,10 @@
+strategy: simple
+script: "wget https://storage.googleapis.com/golang/go1.5.3.linux-amd64.tar.gz"
+globs:
+  - usr
+name: test
+arch: amd64
+author: dale
+depends: []
+version: 0.1
+description: My awesome thing
